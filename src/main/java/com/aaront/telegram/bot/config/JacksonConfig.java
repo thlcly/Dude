@@ -1,8 +1,6 @@
 package com.aaront.telegram.bot.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.xingren.jackson.CustomEnumModule;
-import com.xingren.jackson.Java8Mapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

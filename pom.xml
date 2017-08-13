@@ -45,9 +45,19 @@
             <version>3.0.1</version>
         </dependency>
         <dependency>
-            <groupId>com.xingren</groupId>
-            <artifactId>vjackson</artifactId>
-            <version>2.0.0</version>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jdk8</artifactId>
+            <version>2.6.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.datatype</groupId>
+            <artifactId>jackson-datatype-jsr310</artifactId>
+            <version>2.6.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+            <version>2.6.5</version>
         </dependency>
         <dependency>
             <groupId>com.squareup.retrofit2</groupId>
@@ -64,13 +74,20 @@
             <artifactId>converter-scalars</artifactId>
             <version>2.1.0</version>
         </dependency>
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.1</version>
+        </dependency>
     </dependencies>
-
-    <repositories>
-        <repository>
-            <id>xr-public</id>
-            <name>xingren mirror</name>
-            <url>http://nexus.aihaisi.com/repository/public/</url>
-        </repository>
-    </repositories>
 </project>
